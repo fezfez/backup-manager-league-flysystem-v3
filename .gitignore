@@ -1,0 +1,11 @@
+/vendor
+/.vagrant
+/.phpspec
+/tests/report
+/.idea
+composer.lock
+coverage.xml
+coverage
+.phpcs-cache
+.phpunit.result.cache
+index.html

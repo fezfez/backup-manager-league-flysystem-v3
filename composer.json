@@ -1,0 +1,39 @@
+{
+  "name": "fezfez/backup-manager-league-flysystem-v3",
+  "description": "",
+  "authors": [
+    {
+      "name": "Stéphane Demonchaux",
+      "email": "demonchaux.stephane@gmail.com",
+      "homepage": "https://github.com/fezfez"
+    }
+  ],
+  "require": {
+    "php":  "~8.0.0 || ~8.1.0",
+    "fezfez/backup-manager": "dev-master",
+    "league/flysystem": "^3.0"
+  },
+  "require-dev": {
+    "doctrine/coding-standard": "^9.0.0",
+    "phpunit/phpunit": "^9.5.20",
+    "vimeo/psalm": "^4.23.0",
+    "infection/infection": "^0.26.10"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "infection/extension-installer": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Fezfez\\BackupManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fezfez\\BackupManager\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT"
+}
