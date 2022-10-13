@@ -14,7 +14,7 @@
     "league/flysystem": "^3.0"
   },
   "require-dev": {
-    "doctrine/coding-standard": "^9.0.0",
+    "doctrine/coding-standard": "^10.0.0",
     "phpunit/phpunit": "^9.5.25",
     "vimeo/psalm": "^4.29.0",
     "infection/infection": "^0.26.15"
