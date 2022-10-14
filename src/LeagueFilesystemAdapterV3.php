@@ -16,11 +16,8 @@ use function sprintf;
 
 final class LeagueFilesystemAdapterV3 implements BackupManagerFilesystemAdapter
 {
-    private FilesystemOperator $fileSysteme;
-
-    public function __construct(FilesystemOperator $adapter)
+    public function __construct(private readonly FilesystemOperator $fileSysteme)
     {
-        $this->fileSysteme = $adapter;
     }
 
     public function readStream(string $path): BackupManagerRessource
