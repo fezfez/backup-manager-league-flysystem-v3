@@ -10,7 +10,7 @@
   ],
   "require": {
     "php":  "~8.1.0 || ~8.2.0",
-    "fezfez/backup-manager": "^0.3",
+    "fezfez/backup-manager": "^0.4",
     "league/flysystem": "^3.12"
   },
   "require-dev": {
